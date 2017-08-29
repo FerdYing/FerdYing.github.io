@@ -4,9 +4,9 @@
   <subtitle>Stay hungry Stay foolish</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://github.com/FerdYing/FerdYing.github.io.git/"/>
+  <link href="https://ferdying.github.io/"/>
   <updated>2017-08-27T18:58:10.000Z</updated>
-  <id>https://github.com/FerdYing/FerdYing.github.io.git/</id>
+  <id>https://ferdying.github.io/</id>
   
   <author>
     <name>FerdYing</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>认识伪类、伪元素</title>
-    <link href="https://github.com/FerdYing/FerdYing.github.io.git/2017-08-28-1/"/>
-    <id>https://github.com/FerdYing/FerdYing.github.io.git/2017-08-28-1/</id>
+    <link href="https://ferdying.github.io/2017-08-28-1/"/>
+    <id>https://ferdying.github.io/2017-08-28-1/</id>
     <published>2017-08-27T18:54:23.000Z</published>
     <updated>2017-08-27T18:58:10.000Z</updated>
     
@@ -160,17 +160,17 @@
     
     </summary>
     
-      <category term="Notes" scheme="https://github.com/FerdYing/FerdYing.github.io.git/categories/Notes/"/>
+      <category term="Notes" scheme="https://ferdying.github.io/categories/Notes/"/>
     
     
-      <category term="css" scheme="https://github.com/FerdYing/FerdYing.github.io.git/tags/css/"/>
+      <category term="css" scheme="https://ferdying.github.io/tags/css/"/>
     
   </entry>
   
   <entry>
     <title>使用Hexo+Github免费搭建个人博客</title>
-    <link href="https://github.com/FerdYing/FerdYing.github.io.git/2017-08-28/"/>
-    <id>https://github.com/FerdYing/FerdYing.github.io.git/2017-08-28/</id>
+    <link href="https://ferdying.github.io/2017-08-28/"/>
+    <id>https://ferdying.github.io/2017-08-28/</id>
     <published>2017-08-27T18:12:26.000Z</published>
     <updated>2017-08-28T03:51:52.000Z</updated>
     
@@ -251,10 +251,10 @@
     
     </summary>
     
-      <category term="Notes" scheme="https://github.com/FerdYing/FerdYing.github.io.git/categories/Notes/"/>
+      <category term="Notes" scheme="https://ferdying.github.io/categories/Notes/"/>
     
     
-      <category term="Blog" scheme="https://github.com/FerdYing/FerdYing.github.io.git/tags/Blog/"/>
+      <category term="Blog" scheme="https://ferdying.github.io/tags/Blog/"/>
     
   </entry>
   
