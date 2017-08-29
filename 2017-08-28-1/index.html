@@ -95,22 +95,22 @@
 
 
 
-<meta name="description" content="##常用伪类  连接伪类 ：link:向未访问的链接添加特殊的样式 :visited:设置访问过的页面链接的样式">
+<meta name="description" content="常用伪类 连接伪类 ：link:向未访问的链接添加特殊的样式 :visited:设置访问过的页面链接的样式">
 <meta name="keywords" content="css">
 <meta property="og:type" content="article">
 <meta property="og:title" content="认识伪类、伪元素">
 <meta property="og:url" content="https://ferdying.github.io/2017-08-28-1/index.html">
 <meta property="og:site_name" content="FerdYing&#39;s Blog">
-<meta property="og:description" content="##常用伪类  连接伪类 ：link:向未访问的链接添加特殊的样式 :visited:设置访问过的页面链接的样式">
+<meta property="og:description" content="常用伪类 连接伪类 ：link:向未访问的链接添加特殊的样式 :visited:设置访问过的页面链接的样式">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://sfault-image.b0.upaiyun.com/e7/4d/e74de1a7594f4732fa6238082c97728a_articlex">
 <meta property="og:image" content="https://sfault-image.b0.upaiyun.com/8c/6c/8c6c7a24194289228c9755083e8bb177_articlex">
 <meta property="og:image" content="https://sfault-image.b0.upaiyun.com/28/5a/285a5d7bc8c979311d637f576914ccea_articlex">
 <meta property="og:image" content="https://sfault-image.b0.upaiyun.com/47/d5/47d55dc18a1c34ba5ca9dc53faccb623_articlex">
-<meta property="og:updated_time" content="2017-08-29T08:12:20.000Z">
+<meta property="og:updated_time" content="2017-08-29T12:26:55.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="认识伪类、伪元素">
-<meta name="twitter:description" content="##常用伪类  连接伪类 ：link:向未访问的链接添加特殊的样式 :visited:设置访问过的页面链接的样式">
+<meta name="twitter:description" content="常用伪类 连接伪类 ：link:向未访问的链接添加特殊的样式 :visited:设置访问过的页面链接的样式">
 <meta name="twitter:image" content="https://sfault-image.b0.upaiyun.com/e7/4d/e74de1a7594f4732fa6238082c97728a_articlex">
 
 
@@ -462,8 +462,7 @@
       
 
       
-        <p>##常用伪类</p>
-<ul>
+        <h2 id="常用伪类"><a href="#常用伪类" class="headerlink" title="常用伪类"></a>常用伪类</h2><ul>
 <li>连接伪类<ul>
 <li><code>：link</code>:向未访问的链接添加特殊的样式</li>
 <li><code>:visited</code>:设置访问过的页面链接的样式</li>
@@ -482,8 +481,7 @@
 <blockquote>
 <p><strong>注意</strong>：伪类的顺序很重要，一般顺序：<code>link-visited-focus-hover-active</code></p>
 </blockquote>
-<p>##:target伪类</p>
-<blockquote>
+<h2 id="target伪类"><a href="#target伪类" class="headerlink" title=":target伪类"></a>:target伪类</h2><blockquote>
 <p>不是HTML的a标签里面那个<code>target</code>属性。<code>target</code>伪类是css3的新属性。官方定义是：URL 带有后面跟有锚名称#，指向文档内某个具体的元素。这个被链接的元素就是目标元素(target element)。<code>:target</code> 选择器可用于选取当前活动的目标元素。</p>
 <p>有木有feel到target跟其他伪类的与众不同?!<br>利用target的特性，可以实现纯css的tab效果切换。<br>先根据target的特性锚链接到对应的div,再根据z-index的属性，改变div的层级关系，从而实现tab的切换效果！**</p>
 </blockquote>
@@ -538,7 +536,7 @@
 <p>伪类比属性选择器稍微健壮一些，在需要语言特定的样式时，可以选择伪类</p>
 <p><strong>注意：</strong>在IE8的之前版本必须声明&lt;!DOCTYPE&gt; , 才能生效。</p>
 </blockquote>
-<p>##伪元素<br>１.　<code>:before</code>和<code>:after</code> (向文档中插入生成内容)</p>
+<h2 id="伪元素"><a href="#伪元素" class="headerlink" title="伪元素"></a>伪元素</h2><p>１.　<code>:before</code>和<code>:after</code> (向文档中插入生成内容)</p>
 <ul>
 <li><code>:before</code>:用来给指定的元素的内容前面添加新的内容。</li>
 <li><code>:after</code>:用来给指定的元素的内容后边添加新的内容。</li>
@@ -550,7 +548,7 @@
 <blockquote>
 <p>属性content是否为必选？<br>移除content试试。或者内容设置为空呢？<br>　　content属性的值还可以是其他形式，比如插入一张图片：注意不能使用引号。如果你将URL用引号括起来，那么它会变成一个字符串和插入文本“url(image.jpg)”作为其内容，插入的而不是图像本身。<br>　　<br><code>content:url(img/icon.png);</code>插入字符串<br>插入属性值【attr】（如果一个属性不存在，会在相应位置插入一个空串）；生成引号、插入引号等。<br>　　如果要使用弯引号，quote规则要写作<code>quote{quotes:&#39;\201C&#39; &#39;\201D&#39;}</code>这里使用的十六进制的Unicode值。</p>
 </blockquote>
-<p>##伪元素通常配合伪类使用<br>　eg：<code>:before</code>经常与<code>:hover</code>配合使用<br>　　<br>　　<br><code>:after</code>特征与<code>:before</code>一致</p>
+<h2 id="伪元素通常配合伪类使用"><a href="#伪元素通常配合伪类使用" class="headerlink" title="伪元素通常配合伪类使用"></a>伪元素通常配合伪类使用</h2><p>　eg：<code>:before</code>经常与<code>:hover</code>配合使用<br>　　<br>　　<br><code>:after</code>特征与<code>:before</code>一致</p>
 <ul>
 <li><p>伪元素<code>:first-line</code>：用于向文本的首行设置特殊样式。<br>浏览器会根据 “first-line”伪元素中的样式对p元素的第一行文本进行格式化。</p>
 </li>
@@ -560,8 +558,7 @@
 </blockquote>
 </li>
 </ul>
-<p>##伪类和伪元素的区别</p>
-<blockquote>
+<h2 id="伪类和伪元素的区别"><a href="#伪类和伪元素的区别" class="headerlink" title="伪类和伪元素的区别"></a>伪类和伪元素的区别</h2><blockquote>
 <p><code>w3c</code> 对两者的定义：</p>
 </blockquote>
 <ul>
@@ -572,7 +569,7 @@
 <p>两者都与选择器相关，可以添加一些“特殊”的效果。</p>
 </blockquote>
 <p><img src="https://sfault-image.b0.upaiyun.com/e7/4d/e74de1a7594f4732fa6238082c97728a_articlex" alt="伪类"><br><img src="https://sfault-image.b0.upaiyun.com/8c/6c/8c6c7a24194289228c9755083e8bb177_articlex" alt="伪元素"></p>
-<p>##区别：<br>用伪类 <code>:first-child</code> 和伪元素 <code>:first-letter</code> 来进行比较。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">p&gt;i:first-child &#123;color: red&#125;</div><div class="line">&lt;p&gt;</div><div class="line">    &lt;i&gt;first&lt;/i&gt;</div><div class="line">    &lt;i&gt;second&lt;/i&gt;</div><div class="line">&lt;/p&gt;</div></pre></td></tr></table></figure></p>
+<h2 id="区别："><a href="#区别：" class="headerlink" title="区别："></a>区别：</h2><p>用伪类 <code>:first-child</code> 和伪元素 <code>:first-letter</code> 来进行比较。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">p&gt;i:first-child &#123;color: red&#125;</div><div class="line">&lt;p&gt;</div><div class="line">    &lt;i&gt;first&lt;/i&gt;</div><div class="line">    &lt;i&gt;second&lt;/i&gt;</div><div class="line">&lt;/p&gt;</div></pre></td></tr></table></figure></p>
 <p><img src="https://sfault-image.b0.upaiyun.com/28/5a/285a5d7bc8c979311d637f576914ccea_articlex" alt="伪类"></p>
 <p>伪类 <code>:first-child</code> 添加样式到第一个子元素<br>如果我们不使用伪类，而希望达到上述效果，可以这样做：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">.first-child &#123;color: red&#125;</div><div class="line">&lt;p&gt;</div><div class="line">    &lt;i class=&quot;first-child&quot;&gt;first&lt;/i&gt;</div><div class="line">    &lt;i&gt;second&lt;/i&gt;</div><div class="line">&lt;/p&gt;</div></pre></td></tr></table></figure></p>
 <blockquote>
@@ -682,8 +679,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image" src="http://ol5i1a679.bkt.clouddn.com/IMG_5955.JPG" alt="FerdYing">
           <p class="site-author-name" itemprop="name">FerdYing</p>
@@ -798,6 +804,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#常用伪类"><span class="nav-number">1.</span> <span class="nav-text">常用伪类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#target伪类"><span class="nav-number">2.</span> <span class="nav-text">:target伪类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#伪元素"><span class="nav-number">3.</span> <span class="nav-text">伪元素</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#伪元素通常配合伪类使用"><span class="nav-number">4.</span> <span class="nav-text">伪元素通常配合伪类使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#伪类和伪元素的区别"><span class="nav-number">5.</span> <span class="nav-text">伪类和伪元素的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#区别："><span class="nav-number">6.</span> <span class="nav-text">区别：</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
