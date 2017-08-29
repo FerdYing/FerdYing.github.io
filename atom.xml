@@ -63,7 +63,7 @@
 </blockquote>
 <p>看一个更灵活的用法，在下面例子中设定第偶数个元素的样式，可以用它来实现隔行换色：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">tr:nth-child(2n) &#123;</div><div class="line">      background-color: gray;</div><div class="line">   &#125;</div></pre></td></tr></table></figure></p>
 <blockquote>
-<p><a href="http://nthmaster.com/" target="_blank" rel="external">推荐：Mastering the :nth-child</a></p>
+<p><a href="http://nthmaster.com/" rel="external nofollow noopener noreferrer" target="_blank">推荐：Mastering the :nth-child</a></p>
 </blockquote>
 <ul>
 <li><code>:nth-last-child(n)</code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">li:nth-last-child(2) &#123;</div><div class="line">      color: red;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
@@ -176,15 +176,15 @@
     
     <content type="html"><![CDATA[<p><img src="http://ovajapfxk.bkt.clouddn.com/2017-08-28-hexo+github-pages.jpg" alt="hexo+github-pages"><br>记录本次重新搭建个人博客<br><a id="more"></a></p>
 <h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><ul>
-<li><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a></li>
-<li><a href="https://github.com/">GitHub</a></li>
+<li><a href="https://hexo.io/zh-cn/" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a></li>
+<li><a href="https://github.com/" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a></li>
 </ul>
 <h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><ul>
-<li><a href="https://nodejs.org/en/download/" target="_blank" rel="external">Nodejs安装</a><blockquote>
+<li><a href="https://nodejs.org/en/download/" rel="external nofollow noopener noreferrer" target="_blank">Nodejs安装</a><blockquote>
 <p>建议使用淘宝镜像</p>
 </blockquote>
 </li>
-<li><a href="https://git-scm.com/" target="_blank" rel="external">Git安装</a></li>
+<li><a href="https://git-scm.com/" rel="external nofollow noopener noreferrer" target="_blank">Git安装</a></li>
 </ul>
 <h2 id="开始搭建-Hexo文档有详细介绍，请仔细阅读"><a href="#开始搭建-Hexo文档有详细介绍，请仔细阅读" class="headerlink" title="开始搭建 Hexo文档有详细介绍，请仔细阅读"></a>开始搭建 <em>Hexo文档有详细介绍，请仔细阅读</em></h2><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><ol>
 <li>打开终端输入<code>npm install -g hexo-cli</code></li>
@@ -195,12 +195,12 @@
 </ol>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo init Blog  // Blog可以换成任意名字，只是一个文件夹名字    </div><div class="line">cd Blog     // 进入到Blog文件夹</div><div class="line">npm install     </div><div class="line">hexo generate</div></pre></td></tr></table></figure>
 <ol>
-<li>初始化结束文件目录如下：<img src="http://ovajapfxk.bkt.clouddn.com/2017-08-28-chushihua.png" alt="chushihua"><br><a href="https://hexo.io/zh-cn/docs/setup.html" target="_blank" rel="external">目录结构说明</a></li>
+<li>初始化结束文件目录如下：<img src="http://ovajapfxk.bkt.clouddn.com/2017-08-28-chushihua.png" alt="chushihua"><br><a href="https://hexo.io/zh-cn/docs/setup.html" rel="external nofollow noopener noreferrer" target="_blank">目录结构说明</a></li>
 <li>本地预览输入<code>hexo server</code> 然后打开浏览器输入<code>http://localhost:4000</code>即可预览博客</li>
 <li>先阅读文档熟悉下hexo配置文件然后自己修改玩一玩，修改之前请备份</li>
 </ol>
 <h3 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h3><ol>
-<li>选择一款自己喜欢的主题，<a href="https://hexo.io/themes/" target="_blank" rel="external">这里有很多选择</a></li>
+<li>选择一款自己喜欢的主题，<a href="https://hexo.io/themes/" rel="external nofollow noopener noreferrer" target="_blank">这里有很多选择</a></li>
 <li><p>下载主题</p>
 <ul>
 <li>输入命令<code>cd themes</code>进入themes/文件夹下面</li>
@@ -230,7 +230,7 @@
 </ul>
 <ul>
 <li>主题配置<ul>
-<li>评论使用<code>Disqus</code>，按照文档设置之前需要去<a href="https://disqus.com" target="_blank" rel="external">Disqus</a>注册/登录获取shortname，然后再配置（需翻墙）</li>
+<li>评论使用<code>Disqus</code>，按照文档设置之前需要去<a href="https://disqus.com" rel="external nofollow noopener noreferrer" target="_blank">Disqus</a>注册/登录获取shortname，然后再配置（需翻墙）</li>
 <li>配置分类和标签页面输入hexo new pages “xxx”之后需要在编辑相应的文件夹下的index.md，按照文档设置type</li>
 </ul>
 </li>
@@ -240,7 +240,7 @@
 <h3 id="hexo-new-layout"><a href="#hexo-new-layout" class="headerlink" title="hexo new [layout] "></a>hexo new [layout] <title></title></h3><p>新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。</p>
 <h3 id="hexo-generate–-gt-简写hexo-g"><a href="#hexo-generate–-gt-简写hexo-g" class="headerlink" title="hexo generate–&gt;简写hexo g"></a>hexo generate–&gt;简写hexo g</h3><p>生成静态文件。</p>
 <h3 id="hexo-publish-layout"><a href="#hexo-publish-layout" class="headerlink" title="hexo publish [layout] "></a>hexo publish [layout] <filename></filename></h3><p>发表草稿。</p>
-<h3 id="hexo-server"><a href="#hexo-server" class="headerlink" title="hexo server"></a>hexo server</h3><p>启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/。" target="_blank" rel="external">http://localhost:4000/。</a></p>
+<h3 id="hexo-server"><a href="#hexo-server" class="headerlink" title="hexo server"></a>hexo server</h3><p>启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/。" rel="external nofollow noopener noreferrer" target="_blank">http://localhost:4000/。</a></p>
 <h3 id="hexo-deploy–-gt-简写hexo-d"><a href="#hexo-deploy–-gt-简写hexo-d" class="headerlink" title="hexo deploy–&gt; 简写hexo d"></a>hexo deploy–&gt; 简写hexo d</h3><p>部署网站。</p>
 <h3 id="hexo-clean"><a href="#hexo-clean" class="headerlink" title="hexo clean"></a>hexo clean</h3><p>清除缓存文件 (db.json) 和已生成的静态文件 (public)。<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</p>
 ]]></content>
